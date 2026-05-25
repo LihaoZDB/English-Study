@@ -1,0 +1,9 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+  - "server"
+allowBuilds:
+  '@nestjs/core': set this to true or false
+  '@prisma/engines': true
+  prisma: true
+  unrs-resolver: set this to true or false
