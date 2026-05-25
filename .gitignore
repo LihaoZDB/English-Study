@@ -2,8 +2,10 @@
 /dist
 /node_modules
 /build
-/server
-/apps
+/server/*
+!server/.gitkeep
+/apps/*
+!apps/.gitkeep
 
 # Logs
 logs
